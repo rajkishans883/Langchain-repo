@@ -16,9 +16,9 @@ model=ChatMistralAI(
     temperature=0.5,        
 )
 llm = HuggingFaceEndpoint(
-    repo_id="nvidia/Nemotron-Labs-Diffusion-14B",
+    repo_id="nvidia/Nemotron-Labs-Diffusion-14B                                                                                                                                                                                                                                                                                                                                                                                             ",
     task="text-generation"
-)
+)                                                                                                               
 
 model2 = ChatHuggingFace(
     llm=llm ,
