@@ -55,7 +55,7 @@ parrallel_chain = RunnableParallel({
 merge_chain= template3 | model| parser 
 
 chain_result=parrallel_chain | merge_chain
-print(chain_result)
+print(chain_result) 
 
 print(parrallel_chain.get_graph().draw_ascii())
 

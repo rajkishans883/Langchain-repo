@@ -14,7 +14,7 @@ llm = HuggingFaceEndpoint(
 )
 
 model = ChatHuggingFace(
-    llm=llm ,
+    llm=llm ,   
     streaming=True,
     max_tokens=1000,
 )
