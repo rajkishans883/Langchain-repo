@@ -13,7 +13,7 @@ model= ChatMistralAI(
     api_key=mistral_api_key,
     model_name="mistral-tiny",
     temperature=0.7,
-    streaming=True,         
+    streaming=True,          
 )
 
 result=model.invoke("What is the capital of France?",temperature=1.5)
